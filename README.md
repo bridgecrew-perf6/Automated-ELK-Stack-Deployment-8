@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](https://github.com/edwards-je/InfoSecProjects/tree/main/Diagrams/Network.Map_CatFacts.with.ELK.png "Network Diagram")
+![alt text](https://github.com/edwards-je/InfoSecProjects/blob/main/Diagrams/Network.Map_CatFacts.with.ELK.png "Network Diagram")
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml files may be used to install only certain pieces of it, such as Filebeat.
 
