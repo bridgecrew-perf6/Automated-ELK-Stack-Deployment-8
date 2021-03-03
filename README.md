@@ -48,19 +48,19 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-<public-ip-redacted>
+public-ip-redacted
 
 Machines within the network can only be accessed by SSH from the Jump Box..
 Additionally the Kibana interface can be accessed at http://104.43.163.56:5601/app/kibana. Access to this is only allowed from the following IP addresses:
-<public-ip-redacted>
+public-ip-redacted
 
 
 A summary of the access policies in place can be found in the table below.
 
 | Name       | Publicly Accessible | Allowed IPs          |
 |------------|---------------------|----------------------|
-| Jump Box   | Yes                 | <public-ip-redacted> |
-| ELK-SERVER | Yes                 | <public-ip-redacted> |
+| Jump Box   | Yes                 | public-ip-redacted   |
+| ELK-SERVER | Yes                 | public-ip-redacted   |
 | Web-1      | No                  |                      |
 | Web-2      | No                  |                      |
 
